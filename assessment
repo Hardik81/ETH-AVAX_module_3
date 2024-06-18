@@ -17,4 +17,7 @@ contract Mtoken is ERC20 {
     function burn(address account,uint amount)public{
       _burn(account, amount);
     }
+    function transfer(address send,address rec,uint amount) public{
+      _transfer(send, rec, amount);
+    }
 }
