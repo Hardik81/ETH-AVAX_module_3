@@ -4,14 +4,17 @@ This Solidity program is a simple program that demonstrates the use of erc20 con
 
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. In this contract we have made a token and provided some fuctionalities to the users like minting the the tokens(by owner only), transfer the tokens or just burn the tokens with different permssions for different functions or tasks. This program serves as a simple and straightforward introduction to use of erc20 contracts and interfaces avaialable, and can be used as a stepping stone for more complex projects in the future.
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. In this contract we have made a token and provided some fuctionalities to the users like minting the the tokens(by owner only), transfer the tokens or just burn the tokens with different permssions for different functions or tasks. This program serves as a simple and straightforward introduction to use of erc20 contracts and interfaces available, and can be used as a stepping stone for more complex projects in the future.
 
 ## Getting Started
 
 ### Executing program
 
-Tokens made on Solidity using the erc20 smart contracts are basically used with help of Remix Ethereum ONLINE COMPILER. link to the compiler : https://remix.ethereum.org
-On the remix compiler wht you have to do is that Create a new file by clicking START CODING button available on the page it will open you a new file. Go to your file with.sol extension and rename it as per your choice.
+Tokens made on Solidity using the erc20 smart contracts are basically used with help of Remix Ethereum ONLINE COMPILER.
+
+Link to the compiler : https://remix.ethereum.org
+
+On the remix compiler what you have to do is that Create a new file by clicking START CODING button available on the page it will open you a new file. Go to your file with .sol extension and rename it as per your choice.
 ```javascript
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
@@ -55,5 +58,5 @@ contract Tokenn is ERC20 {
 
 Hardik 
 hardikxibscience238@gmail.com
-LinkedIn : https://www.linkedin.com/in/hardik-taneja-b0030527a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B4F%2Fj7bf6QjeFo%2Bb7zqYXHw%3D%3D
+LinkedIn : https://www.linkedin.com/in/hardik-taneja-b0030527a
 X: @hardik_26629
