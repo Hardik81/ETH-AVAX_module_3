@@ -18,12 +18,9 @@ pragma solidity ^0.8.13;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/token/ERC20/ERC20.sol";
 
-contract Mtoken is ERC20 {
+contract tokenn is ERC20 {
     constructor(string memory name, string memory symbol) ERC20(name, symbol) {
-        // Mint 100 tokens to msg.sender
-        // Similar to how
-        // 1 dollar = 100 cents
-        // 1 token = 1 * (10 ** decimals)
+        
     }
     address owner=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
     modifier mint_by_owner(){
